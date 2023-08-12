@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    background: url(c1.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-family:sans-serif;
+
+} 
+.LoginBox{
+    width: 320px;
+    height: 420px;
+    background: #593f3f;
+    color: #e6e1e1;
+    top: 50%;
+    right: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 50px 50px;
+    border-radius: 20px;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% -50%)
+
+}
+.LoginBox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.LoginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+ .LoginBox input[type=text], input[type="password"]
+ {
+    border: none;
+    border-bottom: 1px solid rgb(182, 65, 65);
+    background: transparent;
+    outline:none ;
+    height: 40px;
+    color: #ce8a8a;
+    font-size: 16px;
+ }
+ .LoginBox input[type="submit"]
+ {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #382727;
+    font-size: 18px;
+    border-radius: 20px;
+
+ }
+ .LoginBox input[type="submit"]:hover
+ {
+  cursor: pointer;
+  background: #4a4331;
+  color: #280d0d;
+ }
+ .LoginBox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(66, 118, 155);
+ }
+ .LoginBox a:hover
+ {
+    color: #796f4e;
+ }
+
+ 
+
