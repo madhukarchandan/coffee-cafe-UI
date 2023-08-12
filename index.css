@@ -16,7 +16,7 @@ body{
     top: 50%;
     right: 30%;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(70%,-50%);
     box-sizing: border-box;
     padding: 70px 50px 50px;
     border-radius: 20px;
